@@ -1,6 +1,6 @@
 ## ANNSearchBuild
 
-This repository contains an executable build of the [ANNSearch implementation](https://github.com/KarateMogens/ANNSearch) created by Malte Helin Johnsen for his Master's thesis written in the spring of 2024 at ITU. This repository contains a complete build of the code as well as the three datasets used to carry out all experiments. The datasets are taken unmodified from [ANN-benchmarks](https://ann-benchmarks.com/).
+This repository contains an executable build of the [ANNSearch implementation](https://github.com/KarateMogens/ANNSearch) created by Malte Helin Johnsen for his Master's thesis written in the spring of 2024 at ITU. This repository contains a complete build of the code as well as the smallest of the three datasets, Fashion-MNIST. 
 
 ### Requirements
 - Java 11
@@ -31,10 +31,4 @@ Index structures are serialized after construction. Therefore, any subsequent tr
 ---
 ### Adding Datasets
 
-This repo supplies the three following datasets:
-
-- Fashion-MNIST
-- SIFT
-- GloVe-100
-
-To add more datasets, simply download the `.hdf5`file from [ANN-benchmarks](https://ann-benchmarks.com/) and enclose it in the `data` directory. Note that for other datasets than those supplied by default, the secondary index structure to be used for the Natural Classifier Search and the Quick-select Natural Classifier Search strategies must be computed. The program does this automatically for the first experiment trial, but it may take a VERY long time.
+This repo includes the Fashion-MNIST dataset. To add more datasets, simply download the `.hdf5`file from [ANN-benchmarks](https://ann-benchmarks.com/) and enclose it in the `data` directory. Note that for other datasets than those supplied by default, the secondary index structure to be used for the Natural Classifier Search and the Quick-select Natural Classifier Search strategies must be computed. The program does this automatically for the first experiment trial, but it may take a VERY long time.
