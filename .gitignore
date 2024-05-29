@@ -5,7 +5,7 @@
 
 /logs
 /results
-/datastructures/fashion-mnist-784-euclidean
+/datastructures/fashion-mnist-784-euclidean/*
 !datastructures/fashion-mnist-784-euclidean/fashion-mnist-784-euclidean-groundtruth-100.ser
 !datastructures/glove-100-angular/glove-100-angular-groundtruth-100.ser
 !datastructures/sift-128-euclidean/sift-128-euclidean-groundtruth-100.ser
